@@ -1,0 +1,7 @@
+service ecdfb /system/bin/ecdfb
+    class main
+    priority -20
+    user root
+    group root
+    capabilities SYS_ADMIN KILL IPC_LOCK SYS_NICE SYS_RESOURCE
+    critical

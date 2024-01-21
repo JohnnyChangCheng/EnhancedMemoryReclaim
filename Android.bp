@@ -1,0 +1,10 @@
+cc_binary {
+    name: "ecdfb",
+    srcs: ["main.cc"],
+    init_rc: ["init.ecdfb.rc"],
+    shared_libs: [
+        "libutils",
+        "liblog",
+        "libprocessgroup",
+    ],
+}
